@@ -1,0 +1,9 @@
+Package: dropbear
+Priority: important
+Section: Networking
+Maintainer: Cameron Lowell Palmer <cameron@cameronpalmer.com>
+Architecture: iphoneos-arm
+Version: 2015.71 
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: secure remote access between machines
+Name: Dropbear

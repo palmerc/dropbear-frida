@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [[ $1 == upgrade ]]; then
+    /bin/launchctl unload /Library/LaunchDaemons/dropbear.plist
+fi
+
+if [[ $1 == install || $1 == upgrade ]]; then
+    /bin/launchctl load /Library/LaunchDaemons/dropbear.plist
+fi
+
+exit 0
